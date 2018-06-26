@@ -24,7 +24,7 @@ function splitSpaces(value, maxBytes) {
 
     var result = [];
 
-    let currentIndex = 0;
+    var currentIndex = 0;
 
     value.split(' ').forEach(function(word) {
         var currentChunk = result[currentIndex] || '';
