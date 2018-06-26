@@ -8,7 +8,7 @@ var truncate = require("truncate-utf8-bytes");
  * @param {number} maxBytes - Max size in bytes per chunk
  * @return {array} - An array containing chunks smaller than `maxBytes`
  */
-function getBytesizedChunks(value, maxBytes) {
+function utf8ByteChunks(value, maxBytes) {
     value = value || "";
     maxBytes = maxBytes || 1;
 
@@ -24,4 +24,4 @@ function getBytesizedChunks(value, maxBytes) {
     return result;
 }
 
-module.exports = getBytesizedChunks;
+module.exports = utf8ByteChunks;
