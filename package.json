@@ -1,0 +1,8 @@
+{
+  "name": "utf8-byte-chunks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:loopmode/utf8-byte-chunks.git",
+  "author": "Jovica Aleksic <jovica.aleksic@xailabs.de>",
+  "license": "MIT"
+}
