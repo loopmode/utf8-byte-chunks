@@ -49,3 +49,8 @@ async handleSubmit(event) {
 }
 ```
 
+## Options
+
+### Split on spaces
+
+Pass `true` as the third argument (`splitOnSpace`) to avoid the initial value to be split in the middle of a word and respect spaces instead.
